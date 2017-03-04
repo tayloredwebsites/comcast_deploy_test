@@ -19,4 +19,4 @@ version '0.1.0'
 source_url 'https://github.com/tayloredwebsites/comcast_deploy_test' if respond_to?(:source_url)
 
 # This assumes selinux should be set to permissive mode
-depends 'selinux', '~> 0.9'
+depends 'selinux', '~> 1.0.2'
